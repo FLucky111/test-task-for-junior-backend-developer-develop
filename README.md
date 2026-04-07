@@ -14,7 +14,7 @@ CREATE DATABASE taskservice;
 
 ### 2. Применить миграции
 
-psql -U postgres -d taskservice -f migrations/0001_create_tasks.up.sql
+psql -U postgres -d taskservice -f migrations/0001_create_tasks.up.sql <br>
 psql -U postgres -d taskservice -f migrations/0002_create_task_templates.up.sql
 
 ### 3. Установить переменную окружения
